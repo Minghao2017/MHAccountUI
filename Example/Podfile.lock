@@ -1,0 +1,16 @@
+PODS:
+  - MHAccountUI (0.1.0)
+
+DEPENDENCIES:
+  - MHAccountUI (from `../`)
+
+EXTERNAL SOURCES:
+  MHAccountUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHAccountUI: bfe5089ff570caf72d8880fd7f65b620610a3397
+
+PODFILE CHECKSUM: 077e0fe8dba72dd6b4a7bef700f4659c61b101d0
+
+COCOAPODS: 1.5.3
