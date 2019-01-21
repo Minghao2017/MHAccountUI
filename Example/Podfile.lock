@@ -1,16 +1,33 @@
 PODS:
-  - MHAccountUI (0.1.0)
+  - Masonry (1.1.0)
+  - MHAccountUI (0.1.0):
+    - Masonry
+    - MHTabController
+    - ReactiveObjC
+  - MHTabController (0.1.0):
+    - Masonry
+  - ReactiveObjC (3.1.0)
 
 DEPENDENCIES:
   - MHAccountUI (from `../`)
+
+SPEC REPOS:
+  "git@github.com:Minghao2017/Specs.git":
+    - MHTabController
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   MHAccountUI:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MHAccountUI: bfe5089ff570caf72d8880fd7f65b620610a3397
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MHAccountUI: 2bfaa62e3ed10494648e6750e3e9d1108b69b2f8
+  MHTabController: 31d81f9cf44f473deee1eddbf1ea4d560e52df5d
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
 
-PODFILE CHECKSUM: 077e0fe8dba72dd6b4a7bef700f4659c61b101d0
+PODFILE CHECKSUM: e3aba15f5f165f008c82355a37232bc5cfe64753
 
 COCOAPODS: 1.5.3

@@ -2,6 +2,9 @@ use_frameworks!
 
 platform :ios, '8.0'
 
+source 'git@github.com:CocoaPods/Specs.git'
+source 'git@github.com:Minghao2017/Specs.git'
+
 target 'MHAccountUI_Example' do
   pod 'MHAccountUI', :path => '../'
 

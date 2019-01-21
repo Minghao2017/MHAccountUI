@@ -6,8 +6,8 @@
 //  Copyright (c) 2019 薛明浩. All rights reserved.
 //
 
-@import UIKit;
+#import <MHAccountUI/MHAccountRootVC.h>
 
-@interface MHViewController : UIViewController
+@interface MHViewController : MHAccountRootVC
 
 @end
